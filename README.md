@@ -10,7 +10,7 @@ This is a FiveM resource that automatically captures profiling data when a hitch
 ## Installation
 1. Download the resource from the repository.
 2. Place the resource folder in your FiveM resources directory.
-3. Add `start cpy_autoprofiler` to your server configuration file (server.cfg).
+3. Add `start cpy_autoprofiler` and `add_ace resource.cpy_autoprofiler command allow` to your server configuration file (server.cfg).
 
 ## Usage
 - The resource will automatically start capturing profiling data when a hitch warning occurs.
